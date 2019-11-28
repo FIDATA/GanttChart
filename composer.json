@@ -1,0 +1,26 @@
+{
+    "name": "fidata/gantt-chart",
+    "description": "Gantt Chart Plugin for Mantis",
+    "type": "mantisbt-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Alain Deurveilher",
+            "email": "alain.deurveilher@gmail.com"
+        },
+        {
+            "name": "Scott Meesseman",
+            "email": "spmeesseman@gmail.com"
+        }
+    ],
+    "archive": {
+        "exclude": [
+            ".gitignore",
+            "/patch",
+            "/res",
+            "CHANGELOG.md",
+            ".publishrc.json",
+            "README.md"
+        ]
+    }
+}

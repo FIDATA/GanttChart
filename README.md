@@ -109,3 +109,11 @@ These patched source files were taken from MantisBT v2.21.1.  It is recommended 
 
 - Alain DEURVEILHER <alain.deurveilher@gmail.com>
   [https://github.com/mantisbt-plugins/GanttChart](https://github.com/mantisbt-plugins/GanttChart)
+
+## Creating Composer package
+
+```
+mkdir build
+composer archive --format=zip --dir=build --file=GanttChart-2.0.4
+curl -u%ARTIFACTORY_USERNAME%:%ARTIFACTORY_PASSWORD% "https://fidata.jfrog.io/fidata/composer-local/fidata/GanttChart-2.0.4.zip;composer.version=2.0.4" -T build/GanttChart-2.0.4.zip
+```
